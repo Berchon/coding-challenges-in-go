@@ -1,0 +1,19 @@
+# Binários e executáveis compilados Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Arquivos de cobertura e profiling
+*.prof
+*.pprof
+profile.out
+
+# Arquivos temporários e do SO
+.DS_Store
+Thumbs.db
+*.swp
+*~

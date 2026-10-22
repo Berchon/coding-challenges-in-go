@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "🐞 Debug arquivo em foco",
+      "type": "go",
+      "request": "launch",
+      "mode": "debug",
+      "program": "${file}",
+      "cwd": "${fileDirname}"
+    },
+    {
+      "name": "▶️ Rodar arquivo em foco",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${file}",
+      "cwd": "${fileDirname}"
+    }
+  ]
+}
