@@ -4,11 +4,12 @@
 
 ![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Em%20Construção%20%2F%20WIP-yellow?style=for-the-badge)
-![HackerRank](https://img.shields.io/badge/HackerRank-19%20Resolvidos-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)
+![HackerRank](https://img.shields.io/badge/HackerRank-23%20Resolvidos-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)
 ![LeetCode](https://img.shields.io/badge/LeetCode-23%20Resolvidos-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
+![Live Coding](https://img.shields.io/badge/Live%20Coding-9%20Desafios-8A2BE2?style=for-the-badge&logo=go&logoColor=white)
 
 <p align="center">
-  Repositório central de estudos em <b>Estruturas de Dados e Algoritmos</b> resolvendo problemas do <b>HackerRank</b> e <b>LeetCode</b> utilizando a linguagem <b>Go (Golang)</b>.
+  Repositório central de estudos em <b>Estruturas de Dados e Algoritmos</b> resolvendo problemas do <b>HackerRank</b>, <b>LeetCode</b> e simulações de <b>Live Coding</b> utilizando a linguagem <b>Go (Golang)</b>.
 </p>
 
 </div>
@@ -30,7 +31,7 @@ coding-challenges-in-go/
 ├── hackerrank/
 │   └── Algorithms/
 │       ├── 01.Warmup/               # 10 desafios
-│       └── 02.Implementation/       # 9 desafios
+│       └── 02.Implementation/       # 13 desafios
 ├── leetcode/
 │   ├── 1.array_string/              # 6 desafios (5 Easy, 1 Medium)
 │   ├── 2.Two Pointers/              # 2 desafios Easy
@@ -44,6 +45,16 @@ coding-challenges-in-go/
 │   ├── 10.Binary Search/            # 1 desafio Easy
 │   ├── 11.DP - 1D/                  # 2 desafios Easy
 │   └── 12.Bit Manipulation/         # 2 desafios Easy
+├── live-coding/
+│   ├── 01.Most_Frequent_Word/       # Palavra mais frequente
+│   ├── 02.Anagrams/                 # Verificador de anagramas (com testes)
+│   ├── 03.Approved_Students/        # Alunos aprovados por média (com testes)
+│   ├── 04.Common_Invoices/          # Interseção de notas fiscais (com testes)
+│   ├── 05.Student_Debts_Report/     # Relatório de dívidas por aluno (com testes)
+│   ├── 06.Active_Enrollments/       # Consolidação de matrículas ativas (com testes)
+│   ├── 07.Settlements_Reconciliation/# Conciliação de liquidações por escola (com testes)
+│   ├── 08.Payment_Attempts_Stats/   # Estatísticas de tentativas de pagamento (com testes)
+│   └── 09.Merge_Strings_Alternately/# Merge Strings Alternately
 ├── .gitignore
 ├── go.mod
 └── README.md
@@ -51,7 +62,7 @@ coding-challenges-in-go/
 
 ---
 
-## 🟩 HackerRank (19 Desafios)
+## 🟩 HackerRank (23 Desafios)
 
 ### 🔹 Algorithms — 01. Warmup (Easy)
 | # | Desafio | Dificuldade | Solução |
@@ -79,6 +90,10 @@ coding-challenges-in-go/
 | 07 | [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem) | Fácil | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/hackerrank/Algorithms/02.Implementation/Easy/07.Divisible%20Sum%20Pairs/main.go) |
 | 08 | [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem) | Fácil | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/hackerrank/Algorithms/02.Implementation/Easy/08.Migratory%20Birds/main.go) |
 | 09 | [Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer/problem) | Fácil | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/hackerrank/Algorithms/02.Implementation/Easy/09.Day%20of%20the%20Programmer/main.go) |
+| 10 | [Bill Division (Bon Appétit)](https://www.hackerrank.com/challenges/bon-appetit/problem) | Fácil | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/hackerrank/Algorithms/02.Implementation/Easy/10.Bill%20Division/main.go) |
+| 11 | [Sales by Match](https://www.hackerrank.com/challenges/sock-merchant/problem) | Fácil | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/hackerrank/Algorithms/02.Implementation/Easy/11.Sales%20by%20Match/main.go) |
+| 12 | [Drawing Book](https://www.hackerrank.com/challenges/drawing-book/problem) | Fácil | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/hackerrank/Algorithms/02.Implementation/Easy/12.Drawing%20Book/main.go) |
+| 13 | [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem) | Fácil | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/hackerrank/Algorithms/02.Implementation/Easy/13.Counting%20Valleys/main.go) |
 
 ---
 
@@ -114,6 +129,24 @@ Organizado pelos padrões de preparação técnica e tópicos fundamentais:
 
 ---
 
+## 🟪 Live Coding (9 Desafios)
+
+Desafios práticos e cenários do mundo real focados em entrevistas técnicas de *Live Coding*:
+
+| # | Desafio | Foco / Conceitos | Testes Unitários | Solução |
+|---|---------|-----------------|:----------------:|:-------:|
+| 01 | Palavra Mais Frequente | Hash Map, Contagem de Frequência | ➖ | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/live-coding/01.Most_Frequent_Word/main.go) |
+| 02 | Verificador de Anagramas | Runes, Ordenação, Comparação de Slices | ✅ | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/live-coding/02.Anagrams/main.go) |
+| 03 | Alunos Aprovados por Média | Agrupamento, Validação, Médias | ✅ | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/live-coding/03.Approved_Students/main.go) |
+| 04 | Interseção de Notas Fiscais | Sets (map[int]struct{}), Deduplicação | ✅ | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/live-coding/04.Common_Invoices/main.go) |
+| 05 | Relatório de Dívidas por Aluno | Enums, Validação de Transações, Ordenação | ✅ | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/live-coding/05.Student_Debts_Report/main.go) |
+| 06 | Consolidação de Matrículas Ativas | Deduplicação por Chave Composta, Timestamps | ✅ | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/live-coding/06.Active_Enrollments/main.go) |
+| 07 | Conciliação de Liquidações por Escola | Reconciliação Financeira, Mapeamento | ✅ | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/live-coding/07.Settlements_Reconciliation/main.go) |
+| 08 | Estatísticas de Tentativas de Pagamento | Agregação, Métricas, Taxa de Falhas | ✅ | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/live-coding/08.Payment_Attempts_Stats/main.go) |
+| 09 | Merge Strings Alternately | Strings Builder, Intercalação | ➖ | [main.go](file:///home/lattes/Documentos/dev/coding-challenges-in-go/live-coding/09.Merge_Strings_Alternately/main.go) |
+
+---
+
 ## 🏃 Como Executar e Debugar
 
 ### 1. Pelo VS Code
@@ -131,8 +164,11 @@ go run "hackerrank/Algorithms/01.Warmup/Easy/01.Solve Me First/main.go"
 # Exemplo LeetCode
 go run "leetcode/1.array_string/medium/151. Reverse Words in a String/main.go"
 
-# Rodar testes automatizados (ex: Prefix Sum)
-go test -v "./leetcode/4.Prefix_Sum/easy/724.Find_Pivot_Index"
+# Exemplo Live Coding
+go run "live-coding/01.Most_Frequent_Word/main.go"
+
+# Rodar todos os testes de Live Coding
+go test -v ./live-coding/...
 ```
 
 ---
